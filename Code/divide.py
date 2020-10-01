@@ -1,14 +1,14 @@
-num1 = input('Enter first number: ')
-num2 = input('Enter second number: ')
+num1 =float(input('Enter first number: '))
+num2 =float(input('Enter second number: '))
 
 
 
 if num2==0:
-	print 'Denominator cannot be 0' 
+	print('Denominator cannot be 0')  #Dealing with an exception error
 
 else:
-	Division=float(num1)/float(num2)
-	print Division
+	Division=num1/num2
+	print(Division)
 
 
 
